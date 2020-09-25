@@ -25,7 +25,7 @@ main{
 }
 
 h1{
-  color: #c12258;
+  color: #B21F50;
   font-size: 2em;
   text-align: center;
   line-height: 2.0;
@@ -83,7 +83,7 @@ table tr:last-child {border-radius: 10px;}
 
 tr:nth-child(even) {background-color: #d1d1d1;} 
 
-tr:hover{background-color: rgba(126, 8, 32, .25)
+tr:hover{background-color: rgba(126, 8, 32, .25);
 
 }
 
