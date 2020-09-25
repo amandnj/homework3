@@ -54,7 +54,8 @@ table{
     vertical-align: center;
     margin-left: auto;
     margin-right: auto;
-    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 10px;
    
 }
 
@@ -64,14 +65,7 @@ table{
   padding: 10px;
   width: 125px;
   text-transform: uppercase;
-
 }
-
-#Position{
-  border-radius: 10px;
-  border-left: 10px solid #000000;
-}
-
 
 .rowhead{
   border-top: 2px solid #000000;
@@ -80,27 +74,22 @@ table{
 
 td{
   border-top: 2px solid #000000;
-  padding: 10px;
-  
-  
+  padding: 10px; 
 }
 
 tr{}
 
+tr:nth-child(even) {background-color: #d1d1d1;} 
 
 tr:hover{background-color: rgba(126, 8, 32, .25)
 
 }
 
 
-tr:first-child
+tr:first-child{}
 th:first-child{
-  border-radius: 10px 0px 0px 0px;  
-} 
-th: last-child{border-radius:10px;}
-
-
-tr:nth-child(even) {background-color: #d1d1d1;nth-child(odd) {background-color: transparent;}
+  border-right: 2px solid #000000;
+  border-radius: 10px 0px 0px 0px;} 
 
 footer{
   width:100%;
