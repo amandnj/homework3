@@ -15,7 +15,7 @@ body{
   font-family: 'Andika', sans-serif;
   background-size: cover ;
   background-position: center;
-  background-image: url("homework3/blob/master/images/pigeon-background.JPEG");
+  background-image: url("..images/pigeon-background.JPEG");
   background-color: #DDDDDD;
 }
 
@@ -63,7 +63,7 @@ table{
   background-color: #7e0830;
   color: #FFFFFF;
   padding: 10px;
-  min-width: 125px;
+  width: 125px;
   text-transform: uppercase;
 }
 
@@ -79,6 +79,7 @@ td{
 
 tr{}
 
+
 tr:nth-child(even) {background-color: #d1d1d1;} 
 
 tr:hover{background-color: rgba(126, 8, 32, .25)
@@ -86,10 +87,11 @@ tr:hover{background-color: rgba(126, 8, 32, .25)
 }
 
 
-tr:first-child{}
-th:first-child{
-  border-right: 2px solid #000000;
-  border-radius: 10px 0px 0px 0px;} 
+tr:{}
+th:{}
+.colhead:first-child{border-top-left-radius: 10px;}
+.colhead:last-child {border-top-right-radius:10px;}
+
 
 footer{
   width:100%;
