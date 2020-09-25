@@ -13,10 +13,11 @@ body{
   font-size: 16px;
   margin: 1.2em;
   font-family: 'Andika', sans-serif;
-  background-size: cover ;
+  background-size: auto;
   background-position: center;
-  background-image: url("https://amandnj.github.io/homework3/images/pigeon-background.JPEG");
+  background-image: url("https://amandnj.github.io/homework3/images/pigeon-background.JPEG")
   background-color: #DDDDDD;
+  background-repeat: no-repeat;
 }
 
 main{
@@ -41,7 +42,7 @@ p{
 
 a{
   font-size: 16px;
-  color: #c12258;
+  color: #B21F50;
   text-decoration: underline;
   text-decoration-style: wavy;
   
@@ -63,13 +64,13 @@ table{
   background-color: #7e0830;
   color: #FFFFFF;
   padding: 10px;
-  width: 125px;
+  min-width: 125px;
   text-transform: uppercase;
 }
 
 .rowhead{
   border-top: 2px solid #000000;
-
+  border-right: 2px solid #000000;
 }
 
 td{
@@ -77,7 +78,7 @@ td{
   padding: 10px; 
 }
 
-tr{}
+table tr:last-child {border-radius: 10px;}
 
 
 tr:nth-child(even) {background-color: #d1d1d1;} 
@@ -87,15 +88,21 @@ tr:hover{background-color: rgba(126, 8, 32, .25)
 }
 
 
-tr:{}
-th:{}
+tr:first-child{}
+th:first-child{}
+
 .colhead:first-child{border-top-left-radius: 10px;}
 .colhead:last-child {border-top-right-radius:10px;}
 
 
 footer{
   width:100%;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
   background:#000000;
   text-align:center;
   color: #FFFFFF;
+  min-height: 75px;
+ 
 }
